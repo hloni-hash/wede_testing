@@ -1,0 +1,81 @@
+/*The below code is used to reset all of the default spacing in our webpage*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color:antiquewhite;/*backgroung color is to chnge the background of your element*/
+    margin: 25px;/*margin is used to creat spacing between your elements , outside the border*/
+    padding: 25px;/* padding is used to create spacing for elements inside the border*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;/*Add this line to center content in your header verif*/
+}
+
+nav{
+    background-color:azure;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+nav ul li{
+    text-decoration: none;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+#hero-section{
+    background-image: url("../images/study\ girls.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    background-position: center;
+    height: 65vh;
+}
+
+#hero-content{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige(226, 226, 226, 0.26);
+}
+
+#hero-content{
+     font-size: 90px;
+}
+
+#hero-content p{
+font-size: 50px;
+margin-bottom: 15px;
+}
+
+#hero-content.call-to-action-btn{
+    /* background-color: azure;*/
+    /* justify-content: space-around;*/
+    margin-top: 20px;
+}
+
+#hero-content.call-to-action-btn a{
+    text-decoration: none;
+    margin:40px;
+    font-size: 18;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: antiquewhite;
+    border: 1px solid snow;
+    border-radius: 50px;
+}
